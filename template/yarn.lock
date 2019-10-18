@@ -1330,7 +1330,7 @@ chalk@^1.0.0, chalk@^1.1.1:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.npm.taobao.org/chalk/download/chalk-2.4.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchalk%2Fdownload%2Fchalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
@@ -2507,6 +2507,19 @@ gulp-rename@^1.4.0:
   resolved "https://registry.npm.taobao.org/gulp-rename/download/gulp-rename-1.4.0.tgz#de1c718e7c4095ae861f7296ef4f3248648240bd"
   integrity sha1-3hxxjnxAla6GH3KW708ySGSCQL0=
 
+gulp-rev-all@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/gulp-rev-all/download/gulp-rev-all-2.0.2.tgz#af2c4f4027840481dfb671cf69eed4ffb241f7e5"
+  integrity sha1-ryxPQCeEBIHftnHPae7U/7JB9+U=
+  dependencies:
+    chalk "^2.4.1"
+    fancy-log "^1.3.2"
+    isbinaryfile "^4.0.0"
+    merge "^1.2.0"
+    plugin-error "^1.0.1"
+    through2 "^3.0.1"
+    vinyl "^2.1.0"
+
 gulp-rev-collector@^1.3.1:
   version "1.3.1"
   resolved "https://registry.npm.taobao.org/gulp-rev-collector/download/gulp-rev-collector-1.3.1.tgz#a7040c7c9a08d33ac9b76d33de219badba4a5189"
@@ -3098,6 +3111,11 @@ isarray@2.0.1:
   resolved "https://registry.npm.taobao.org/isarray/download/isarray-2.0.1.tgz?cache=0&sync_timestamp=1562592125418&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fisarray%2Fdownload%2Fisarray-2.0.1.tgz#a37d94ed9cda2d59865c9f76fe596ee1f338741e"
   integrity sha1-o32U7ZzaLVmGXJ92/llu4fM4dB4=
 
+isbinaryfile@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/isbinaryfile/download/isbinaryfile-4.0.2.tgz#bfc45642da645681c610cca831022e30af426488"
+  integrity sha1-v8RWQtpkVoHGEMyoMQIuMK9CZIg=
+
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/isexe/download/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
@@ -3672,6 +3690,11 @@ meow@^3.3.0:
     read-pkg-up "^1.0.1"
     redent "^1.0.0"
     trim-newlines "^1.0.0"
+
+merge@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/merge/download/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
+  integrity sha1-OL6/gMMiCopIe2/Ps5QbsRcgwUU=
 
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
