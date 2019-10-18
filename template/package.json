@@ -1,6 +1,8 @@
 {
-  "name": "a_gulp_project",
-  "version": "1.0.0",
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "{{version}}",
+  "author": "{{{author}}}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,7 +10,7 @@
     "dev": "gulp",
     "build": "gulp build"
   },
-  "license": "MIT",
+  "license": "{{license}}",
   "dependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",

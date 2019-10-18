@@ -5,11 +5,17 @@
       "required": true,
       "label": "Project name"
     },
+    "version": {
+      "type": "string",
+      "required": true,
+      "label": "Version",
+      "default": "1.0.0"
+    },
     "description": {
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": "A demo project"
+      "default": ""
     },
     "author": {
       "type": "string",

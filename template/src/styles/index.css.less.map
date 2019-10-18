@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,QACE,MAAA,QAEF,cACE,WAAA","file":"index.css","sourcesContent":["body h1 {\n  color: cadetblue;\n}\nbody div.test {\n  background: url('../images/file1.png');\n}\n"]}
