@@ -15,7 +15,7 @@
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": ""
+      "default": "a project based on gulp"
     },
     "author": {
       "type": "string",
