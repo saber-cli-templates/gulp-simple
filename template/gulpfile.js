@@ -56,7 +56,7 @@ const compileJS = () =>
     )
     .pipe(uglify())
     .pipe(dest(getDist('js')))
-const compileHTML = () => {}
+const compileHTML = () =>
 src(getSrc('*.html'))
   .pipe(
     minifyHTML({
